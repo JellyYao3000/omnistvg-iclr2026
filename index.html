@@ -241,30 +241,63 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">OmniSTVG: Toward Spatio-Temporal Omni-Object Video Grounding</h1>
+            <!-- TODO: Replace with your paper authors and their personal links -->
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
+            <span class="author-block">
+              <a href="YOUR_LINK" target="_blank">Jiali Yao</a><sup>*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="YOUR_LINK" target="_blank">Xin Gu</a><sup>*</sup>,
+            </span>
+            <span class="author-block"><a href="YOUR_LINK" target="_blank">Xinran Deng</a>,</span>
+            <span class="author-block"><a href="YOUR_LINK" target="_blank">Mengrui Dai</a>,</span>
+            <span class="author-block"><a href="YOUR_LINK" target="_blank">Bing Fan</a>,</span>
+            <span class="author-block"><a href="YOUR_LINK" target="_blank">Zhipeng Zhang</a>,</span>
+            <span class="author-block"><a href="YOUR_LINK" target="_blank">Yan Huang</a>,</span>
+            <span class="author-block">
+              <a href="YOUR_LINK" target="_blank">Heng Fan</a><sup>†</sup>,
+            </span>
+            <span class="author-block">
+              <a href="YOUR_LINK" target="_blank">Libo Zhang</a><sup>†</sup>
+            </span>
+          </div>
+            <!-- <div class="is-size-5 publication-authors">
+              
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Jiali Yao</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Xin Gu</a><sup>*</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Xinran Deng</a>,</span>
+                    <span class="author-block">
+                      <a href="4 AUTHOR PERSONAL LINK" target="_blank"> Mengrui Dai</a>,</span>
+                      <span class="author-block">
+                        <a href="5 AUTHOR PERSONAL LINK" target="_blank"> Bing Fan</a>,</span>
+                        <span class="author-block">
+                          <a href="6 AUTHOR PERSONAL LINK" target="_blank">Zhipeng Zhang</a>,</span>
+                          <span class="author-block">
+                            <a href="7 AUTHOR PERSONAL LINK" target="_blank">Yan Huang</a>,</span>
+                            <span class="author-block">
+                              <a href="8 AUTHOR PERSONAL LINK" target="_blank">Heng Fan</a><sup>†</sup>,</span>
+                              <span class="author-block">
+                                <a href="9 AUTHOR PERSONAL LINK" target="_blank">Libo Zhang</a><sup>†</sup>
                   </span>
-                  </div>
+                  </div> -->
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
+                    <span class="author-block">University of Chinese Academy of Sciences<br>ICLR 2026</span>
                     <!-- TODO: Remove this line if no equal contribution -->
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="eql-cntrb"><small><br><sup>†</sup>Indicates Corresponding Authors</small></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/pdf/2503.10500.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -274,7 +307,7 @@
                     </span>
 
                     <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -282,7 +315,7 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
@@ -341,7 +374,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            We introduce spatio-temporal omni-object video grounding, dubbed \textbf{OmniSTVG}, a new STVG task aiming to localize spatially and temporally \emph{all} targets mentioned in the textual query within videos. Compared to classic STVG locating only a single target, OmniSTVG enables localization of not only an arbitrary number of text-referred targets but also their interacting counterparts in the query from the video, making it more flexible and practical in real scenarios for comprehensive understanding. In order to facilitate exploration of OmniSTVG, we propose \textbf{BOSTVG}, a large-scale benchmark dedicated to OmniSTVG. Specifically, BOSTVG contains 10,018 videos with 10.2M frames and covers a wide selection of 287 classes from diverse scenarios. Each sequence, paired with a free-form textual query, encompasses a varying number of targets ranging from 1 to 10. To ensure high quality, each video is manually annotated with meticulous inspection and refinement. To our best knowledge, BOSTVG, to date, is the first and the largest benchmark for OmniSTVG. To encourage future research, we present a simple yet effective approach, named \textbf{OmniTube}, which, drawing inspiration from Transformer-based STVG methods, is specially designed for OmniSTVG and demonstrates promising results. By releasing BOSTVG, we hope to go beyond classic STVG by locating every object appearing in the query for more comprehensive understanding, opening up a new direction for STVG.           
+            We introduce spatio-temporal omni-object video grounding, dubbed <strong>OmniSTVG</strong>, a new STVG task aiming to localize spatially and temporally all targets mentioned in the textual query within videos. Compared to classic STVG locating only a single target, OmniSTVG enables localization of not only an arbitrary number of text-referred targets but also their interacting counterparts in the query from the video, making it more flexible and practical in real scenarios for comprehensive understanding. In order to facilitate exploration of OmniSTVG, we propose <strong>BOSTVG</strong>, a large-scale benchmark dedicated to OmniSTVG. Specifically, BOSTVG contains 10,018 videos with 10.2M frames and covers a wide selection of 287 classes from diverse scenarios. Each sequence, paired with a free-form textual query, encompasses a varying number of targets ranging from 1 to 10. To ensure high quality, each video is manually annotated with meticulous inspection and refinement. To our best knowledge, BOSTVG, to date, is the first and the largest benchmark for OmniSTVG. To encourage future research, we present a simple yet effective approach, named <strong>OmniTube</strong>, which, drawing inspiration from Transformer-based STVG methods, is specially designed for OmniSTVG and demonstrates promising results. By releasing BOSTVG, we hope to go beyond classic STVG by locating every object appearing in the query for more comprehensive understanding, opening up a new direction for STVG.           
           </p>
         </div>
       </div>
